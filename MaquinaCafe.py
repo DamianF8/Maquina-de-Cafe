@@ -19,3 +19,10 @@ def verificar_recursos(eleccion):
         print("No hay suficiente leche para el pedido")
         return False
     
+    def procesar_pago(precio):
+    monedas = float(input("Ingrese el dinero ($): "))
+    if monedas < precio:
+        print("Dinero insuficiente. Retire las monedas...")
+        
+        return False
+    else;
