@@ -15,14 +15,21 @@ def verificar_recursos(eleccion):
     if bebida["agua"] > agua:
         print("No hay suficiente agua para el pedido")
         return False
+
     if bebida["leche"] > leche:
         print("No hay suficiente leche para el pedido")
         return False
+    if bebida["cafe"] > cafe;
+        print("No hay suficiente cafe para el pedido")
+        return False
+
+    return True
     
     def procesar_pago(precio):
     monedas = float(input("Ingrese el dinero ($): "))
     if monedas < precio:
-        print("Dinero insuficiente. Retire las monedas...")
-        
+        print("Dinero insuficiente. Reembolso disponible...")        
         return False
-    else;
+    else:
+        global dinero
+        
