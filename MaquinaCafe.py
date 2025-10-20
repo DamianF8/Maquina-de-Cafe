@@ -11,7 +11,7 @@ menu = {
 eleccion = input("Elije tu tipo de cafe: (espresso/latte/capuccino): ")
 
 def verificar_recursos(eleccion):
-    bebida = menu[eleccion]
+        bebida = menu[eleccion]
     if bebida["agua"] > agua:
         print("No hay suficiente agua para el pedido")
         return False
